@@ -80,9 +80,9 @@ Along with `GoogleApiWrapper`, I also imported the `Map` component from google-m
 
 `initialCenter` takes a latitude/longitude object — an example: `{lat: 40.7484, lng: 73.9857}`. This prop dictates the point at which the map is centered when it initially renders.
 
-In my example above, I have the map initially center at `this.props.mapInfo[0]`, which calls the first latitude/longitude object stored in my `mapInfo` array.
+In my example above, I had the map initially center at `this.props.mapInfo[0]`, which calls the first latitude/longitude object stored in my `mapInfo` array.
 
-The `Marker` component imported from google-maps-component allowed me to place markers on the map at multiple locations. Each marker has a `position` prop that tells the marker where to appear on the map. You'll see that I again used my `mapInfo` array of latitude/longitude objects to position my markers. The `label` prop places a label on each marker — in my project, I used `label` to number the markers of the comparable properties.
+The `Marker` component imported from google-maps-react allowed me to place markers on the map at multiple locations. Each marker has a `position` prop that tells the marker where to appear on the map. You'll see that I again used my `mapInfo` array of latitude/longitude objects to position my markers. The `label` prop places a label on each marker — in my project, I used `label` to number the markers of the comparable properties.
 
 Finally, I passed an `apiKey` to the `GoogleApiWrapper` using `process.env.REACT_APP_MAPS_ID`. This allowed me to store my Google Maps API key in my `.env` file and call it using `process.env.REACT_MAPS_ID`.
 
