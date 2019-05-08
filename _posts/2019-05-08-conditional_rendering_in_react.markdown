@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Conditional rendering in React"
-date:       2019-05-08 14:59:47 +0000
+date:       2019-05-08 10:59:48 -0400
 permalink:  conditional_rendering_in_react
 ---
 
@@ -65,9 +65,9 @@ If `this.props.user` returned a value, `getHomes` would execute and return the u
 
 Further reading on conditional rendering in React that helped me as I built my project:
 
-* https://reactjs.org/docs/conditional-rendering.html
-* https://react-cn.github.io/react/tips/if-else-in-JSX.html
-* https://www.robinwieruch.de/conditional-rendering-react/
+* [https://reactjs.org/docs/conditional-rendering.html](https://reactjs.org/docs/conditional-rendering.html)
+* [https://react-cn.github.io/react/tips/if-else-in-JSX.html](https://react-cn.github.io/react/tips/if-else-in-JSX.html)
+* [https://www.robinwieruch.de/conditional-rendering-react/](https://www.robinwieruch.de/conditional-rendering-react/)
 
 
 
