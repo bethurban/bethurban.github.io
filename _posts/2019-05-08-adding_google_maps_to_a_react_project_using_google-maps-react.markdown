@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Adding Google Maps to a React project using `google-maps-react`"
-date:       2019-05-08 15:40:54 +0000
+date:       2019-05-08 11:40:55 -0400
 permalink:  adding_google_maps_to_a_react_project_using_google-maps-react
 ---
 
 
 My final Flatiron School project used Zillow's API to get details on a searched property, as well as details on comparable properties. To make this information even more useful, I wanted to incorporate a Google Map that showed the searched property along with the comparable addresses.
 
-![](https://imgur.com/a/1cZn8BO)
+![](https://i.imgur.com/93gLwEl.png)
 
 To make this process easier, I turned to the [google-maps-react](https://www.npmjs.com/package/google-maps-react) npm package, built by [Fullstack React](https://www.fullstackreact.com/).
 
