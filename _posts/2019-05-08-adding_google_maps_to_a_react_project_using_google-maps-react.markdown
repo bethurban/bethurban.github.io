@@ -87,9 +87,10 @@ The `Marker` component imported from google-maps-component allowed me to place m
 Finally, I passed an `apiKey` to the `GoogleApiWrapper` using `process.env.REACT_APP_MAPS_ID`. This allowed me to store my Google Maps API key in my `.env` file and call it using `process.env.REACT_MAPS_ID`.
 
 
-For more information on google-maps-react and environmental variables in React, see these resources that helped me:
+For more information on google-maps-react, the Google Maps API, and environmental variables in React, see these resources that helped me:
 
 * [https://scotch.io/tutorials/react-apps-with-the-google-maps-api-and-google-maps-react](https://scotch.io/tutorials/react-apps-with-the-google-maps-api-and-google-maps-react)
+* [https://developers.google.com/maps/documentation/javascript/examples/marker-labels](https://developers.google.com/maps/documentation/javascript/examples/marker-labels)
 * [https://facebook.github.io/create-react-app/docs/adding-custom-environment-variables](https://facebook.github.io/create-react-app/docs/adding-custom-environment-variables)
 
 
