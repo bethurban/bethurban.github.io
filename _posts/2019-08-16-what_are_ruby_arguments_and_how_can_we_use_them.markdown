@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What are Ruby arguments (and how can we use them)?"
-date:       2019-08-16 15:26:27 +0000
+date:       2019-08-16 11:26:28 -0400
 permalink:  what_are_ruby_arguments_and_how_can_we_use_them
 ---
 
@@ -98,7 +98,7 @@ Because we used arguments and avoided hard-coding when we defined the `add_eleme
 add_element([1, 2, 3], 4)
 ```
 
-Return value: `[1, 2, 3, 4`
+Return value: `[1, 2, 3, 4]`
 
 
 
