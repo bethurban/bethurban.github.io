@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Still a little confused about Ruby arguments?"
-date:       2019-10-11 19:08:30 +0000
+date:       2019-10-11 15:08:31 -0400
 permalink:  still_a_little_confused_about_ruby_arguments
 ---
 
